@@ -20,7 +20,7 @@
       <section class="hero">
         <span class="eyebrow">Privacy Policy</span>
         <h1>マッピン（Mappin） プライバシーポリシー</h1>
-        <p class="meta">制定日: 2026-06-26 / 最終更新日: 2026-07-05</p>
+        <p class="meta">制定日: 2026-06-26 / 最終更新日: 2026-07-06</p>
         <p class="lead">
           マッピン（Mappin）は、旅の記録を保存し、必要に応じて共有できるようにするため、以下の情報を取得または保存します。
         </p>
@@ -37,7 +37,8 @@
             <li>共有マップ、参加メンバー、共有招待に関する情報</li>
             <li>表示高速化のためのローカルキャッシュ</li>
             <li>App Storeの商品ID、取引識別子、購入・更新・解約・返金状態</li>
-            <li>Mixpanelによるアプリ利用状況の分析データ（識別子、メールアドレス、画面遷移や操作イベント）</li>
+            <li>Mixpanelによるアプリ利用状況の分析データ（識別子、画面遷移や操作イベント）</li>
+            <li>Google AdMobによる広告表示・配信のためのデータ（無料プランのみ、プレミアムでは表示されません）</li>
           </ul>
         </article>
 
@@ -65,9 +66,10 @@
             <li>Apple StoreKit / App Store Server Notifications</li>
             <li>Apple WeatherKit</li>
             <li>Mixpanel</li>
+            <li>Google AdMob</li>
           </ul>
           <p>
-            場所検索時には検索語や関連情報が Google Places API に送信されます。ログイン時には Apple または Google と Firebase Authentication に認証情報が送信されます。記録データと画像は Firebase Firestore および Firebase Storage に保存されます。アプリ内課金ではAppleが発行した署名付き取引情報をFirebase Functionsで検証します。クレジットカード番号などの決済情報を本アプリが取得・保存することはありません。記録に登録した場所の緯度・経度と訪問日時は、天気情報を表示するためApple WeatherKitへ送信されます。アプリの利用状況を把握するため、識別子・メールアドレス・画面遷移や操作イベントがMixpanelへ送信されます。
+            場所検索時には検索語や関連情報が Google Places API に送信されます。ログイン時には Apple または Google と Firebase Authentication に認証情報が送信されます。記録データと画像は Firebase Firestore および Firebase Storage に保存されます。アプリ内課金ではAppleが発行した署名付き取引情報をFirebase Functionsで検証します。クレジットカード番号などの決済情報を本アプリが取得・保存することはありません。記録に登録した場所の緯度・経度と訪問日時は、天気情報を表示するためApple WeatherKitへ送信されます。アプリの利用状況を把握するため、識別子・画面遷移や操作イベントがMixpanelへ送信されます。無料プランをご利用の場合、Google AdMobによる広告が表示され、広告配信のための情報がGoogleへ送信されます。プレミアム（買い切り・月額）をご利用の場合、広告は表示されません。
           </p>
         </article>
 
