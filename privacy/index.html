@@ -20,7 +20,7 @@
       <section class="hero">
         <span class="eyebrow">Privacy Policy</span>
         <h1>マッピン（Mappin） プライバシーポリシー</h1>
-        <p class="meta">制定日: 2026-06-26</p>
+        <p class="meta">制定日: 2026-06-26 / 最終更新日: 2026-07-05</p>
         <p class="lead">
           マッピン（Mappin）は、旅の記録を保存し、必要に応じて共有できるようにするため、以下の情報を取得または保存します。
         </p>
@@ -36,8 +36,8 @@
             <li>写真、コメント、評価、お気に入り状態</li>
             <li>共有マップ、参加メンバー、共有招待に関する情報</li>
             <li>表示高速化のためのローカルキャッシュ</li>
-            <li>現在地表示を許可した場合の位置情報</li>
             <li>App Storeの商品ID、取引識別子、購入・更新・解約・返金状態</li>
+            <li>Mixpanelによるアプリ利用状況の分析データ（識別子、メールアドレス、画面遷移や操作イベント）</li>
           </ul>
         </article>
 
@@ -63,9 +63,11 @@
             <li>Google Sign-In</li>
             <li>Google Places API</li>
             <li>Apple StoreKit / App Store Server Notifications</li>
+            <li>Apple WeatherKit</li>
+            <li>Mixpanel</li>
           </ul>
           <p>
-            場所検索時には検索語や関連情報が Google Places API に送信されます。ログイン時には Apple または Google と Firebase Authentication に認証情報が送信されます。記録データと画像は Firebase Firestore および Firebase Storage に保存されます。アプリ内課金ではAppleが発行した署名付き取引情報をFirebase Functionsで検証します。クレジットカード番号などの決済情報を本アプリが取得・保存することはありません。
+            場所検索時には検索語や関連情報が Google Places API に送信されます。ログイン時には Apple または Google と Firebase Authentication に認証情報が送信されます。記録データと画像は Firebase Firestore および Firebase Storage に保存されます。アプリ内課金ではAppleが発行した署名付き取引情報をFirebase Functionsで検証します。クレジットカード番号などの決済情報を本アプリが取得・保存することはありません。記録に登録した場所の緯度・経度と訪問日時は、天気情報を表示するためApple WeatherKitへ送信されます。アプリの利用状況を把握するため、識別子・メールアドレス・画面遷移や操作イベントがMixpanelへ送信されます。
           </p>
         </article>
 
